@@ -256,7 +256,7 @@ class TransitionRouteGroups(ScrapiBase):
         
         request = types.transition_route_group.UpdateTransitionRouteGroupRequest()
 
-        request.transition_route_group = transition_route_group
+        request.transition_route_group = route_group
         request.update_mask = mask
 
         if language_code:
